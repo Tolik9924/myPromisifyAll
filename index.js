@@ -1,5 +1,3 @@
-const { promisify } = require('util');
-
 const myPromisify = (fn) => {
     return (...args) => {
         return new Promise((resolve, reject) => {
